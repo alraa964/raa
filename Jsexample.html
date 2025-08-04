@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>امثله جافا اسكريبت</title>
+ <script>
+  function welcome()
+  {
+ var uName;
+ uName = prompt("مرحبا بكم في موقعنا الشخصي الرجاء ادخال اسمك");
+   alert("السلام عليكم"+uName);
+  }
+function valume(){
+  var high,rad,vol;
+  high=prompt("0","ادخال قيمه ارتفاع الاسطوانه");
+  rad =prompt("0","ادخال قيمه نصف قطر الاسطوانه");
+  vol=high*rad*rad*3.14;
+  alert("قيمه حجم الاسطوانه هي"+vol);
+}
+function calc(){
+var d,e,a;
+d=prompt("");
+e=prompt("");
+a=d*e;
+alert(a)
+}
+</script>
+  </head>
+  <body bgcolor="yellow">
+    <h1> <textcolor="green">مرحبا بكم في تنفيذ كود جافا اسكربيت
+    </h1>
+  <input type="button"name="b1"onclick="welcome()"value="الغاء التحيه"/>
+  <input type="button" name="b2"onclick="valume();"value="حساب حجم الاسطوانه"/>
+ <input type="button"name="b3"onclick="calc();" value="ضرب"/>
+  </body>
+</html>
